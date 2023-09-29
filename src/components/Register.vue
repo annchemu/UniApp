@@ -1,13 +1,8 @@
-<script>
-
-</script>
-
 <template>
     <div id = 'signup'>
         <v-container>
             <v-container>
                 <v-layout column>
-                    <h1>Sign Up</h1>
                     <v-card
                         class="mx-auto"
                         width="500"
@@ -72,7 +67,6 @@
 
                         <v-btn color="success">
                             Complete Registration
-
                             <v-icon icon="mdi-chevron-right" end></v-icon>
                         </v-btn>
                         </v-card-actions>
