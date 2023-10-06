@@ -45,7 +45,7 @@
                             ></v-text-field>
 
                             <v-text-field
-                                v-model="password"
+                                model="password"
                                 color="teal"
                                 label="Password"
                                 placeholder="Enter your password"

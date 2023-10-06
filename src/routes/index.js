@@ -5,9 +5,7 @@ import About from "./../components/About.vue"
 import Signup from "./../components/Signup.vue"
 import Login from "./../components/Login.vue"
 import Register from "./../components/Register.vue"
-
-
-
+import Students from "./../components/Students.vue"
 
 const routes = [
     {
@@ -34,6 +32,11 @@ const routes = [
         path: '/register',
         name: 'register',
         component: Register,
+      },
+      {
+        path: '/students',
+        name: 'students',
+        component: Students,
       }
 ]
 const router = createRouter({
